@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: rokko2008/k8s-repo:v8
+        image: rokko2008/k8s-repo:v4
         ports:
         - name: web
           containerPort: 80
